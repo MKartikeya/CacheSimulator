@@ -1,0 +1,98 @@
+CONFIG:
+1024
+64
+4
+LRU
+WB
+
+ACCESS:
+W: 3D86F94C
+W: 5EC6F95B
+W: 3D86F97F
+R: FD86F977
+W: 1D86ED77
+R: 53669948
+R: 5EC6F95B
+W: 3D86F94C
+R: 4CB3F9F7
+R: 4CB3F9F7
+
+OUTPUT:
+Address: 0x3d86f94c Set: 0x1 Miss Tag: 0x3d86f9
+Address: 0x5ec6f95b Set: 0x1 Miss Tag: 0x5ec6f9
+Address: 0x3d86f97f Set: 0x1 Hit Tag: 0x3d86f9
+Address: 0xfd86f977 Set: 0x1 Miss Tag: 0xfd86f9
+Address: 0x1d86ed77 Set: 0x1 Miss Tag: 0x1d86ed
+Address: 0x53669948 Set: 0x1 Miss Tag: 0x536699
+Address: 0x5ec6f95b Set: 0x1 Miss Tag: 0x5ec6f9
+Address: 0x3d86f94c Set: 0x1 Miss Tag: 0x3d86f9
+Address: 0x4cb3f9f7 Set: 0x3 Miss Tag: 0x4cb3f9
+Address: 0x4cb3f9f7 Set: 0x3 Hit Tag: 0x4cb3f9
+Hit Count: 2
+Miss Count: 8
+Total Accesses: 10
+
+CONFIG:
+1024
+64
+4
+LRU
+WT
+
+ACCESS:
+W: 3D86F94C
+W: 5EC6F95B
+W: 3D86F97F
+R: FD86F977
+W: 1D86ED77
+R: 53669948
+R: 5EC6F95B
+W: 3D86F94C
+R: 4CB3F9F7
+R: 4CB3F9F7
+
+OUTPUT:
+Address: 0x3d86f94c Set: 0x1 Miss Tag: 0x3d86f9
+Address: 0x5ec6f95b Set: 0x1 Miss Tag: 0x5ec6f9
+Address: 0x3d86f97f Set: 0x1 Miss Tag: 0x3d86f9
+Address: 0xfd86f977 Set: 0x1 Miss Tag: 0xfd86f9
+Address: 0x1d86ed77 Set: 0x1 Miss Tag: 0x1d86ed
+Address: 0x53669948 Set: 0x1 Miss Tag: 0x536699
+Address: 0x5ec6f95b Set: 0x1 Miss Tag: 0x5ec6f9
+Address: 0x3d86f94c Set: 0x1 Miss Tag: 0x3d86f9
+Address: 0x4cb3f9f7 Set: 0x3 Miss Tag: 0x4cb3f9
+Address: 0x4cb3f9f7 Set: 0x3 Hit Tag: 0x4cb3f9
+Hit Count: 1
+Miss Count: 9
+Total Accesses: 10
+
+ACCESS:
+W: 3D86F94C
+R: 5EC6F95B
+W: 3D86F97F
+R: FD86F977
+W: 1D86ED77
+R: 53669948
+R: 5EC6F95B
+W: 3D86F94C
+R: 4CB3F9F7
+R: 4CB3F9F7
+
+OUTPUT:
+Address: 0x3d86f94c Set: 0x1 Miss Tag: 0x3d86f9
+Address: 0x5ec6f95b Set: 0x1 Miss Tag: 0x5ec6f9
+Address: 0x3d86f97f Set: 0x1 Miss Tag: 0x3d86f9
+Address: 0xfd86f977 Set: 0x1 Miss Tag: 0xfd86f9
+Address: 0x1d86ed77 Set: 0x1 Miss Tag: 0x1d86ed
+Address: 0x53669948 Set: 0x1 Miss Tag: 0x536699
+Address: 0x5ec6f95b Set: 0x1 Hit Tag: 0x5ec6f9
+Address: 0x3d86f94c Set: 0x1 Miss Tag: 0x3d86f9
+Address: 0x4cb3f9f7 Set: 0x3 Miss Tag: 0x4cb3f9
+Address: 0x4cb3f9f7 Set: 0x3 Hit Tag: 0x4cb3f9
+Hit Count: 2
+Miss Count: 8
+Total Accesses: 10
+
+
+
+
